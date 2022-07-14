@@ -53,8 +53,17 @@ while True:
         print(f"{valor1} / {valor2} = {div}")
     
     elif opcion == "5":
-        print("\n\tHistorial")
-        for x in historial:
-            print(x)
-    else: 
+        if not historial:
+            print("\nEl historial esta vacio.")
+        else:
+            print("\n\tHistorial")
+            for x in historial:
+                print(x)
+            
+            eliminar = input("\n¿Desea eliminar el historial? (y/n): ")
+            if eliminar=="y":
+                historial.clear()
+                print("Historial eliminado!!")
+    else:
+
         print("Esta opción no existe. :c")
