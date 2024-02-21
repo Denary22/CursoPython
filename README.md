@@ -2,6 +2,11 @@
 
 **Esta es una calculadora básica escrita en Python que proporciona funcionalidades básicas de cálculo matemático y la capacidad de cambiar entre el modo diurno y nocturno para la interfaz gráfica.**
 
+![Captura de la calculadora modo diurno.](/Imagenes/diurno.JPG)
+![Captura de la calculadora modo nocturno.](/Imagenes/nocturno.JPG)
+
+
+
 ## Características
 - Operaciones matemáticas básicas: suma, resta, multiplicación, división, exponencial, etc.
 - Cambio entre modo diurno y nocturno para la interfaz gráfica.
