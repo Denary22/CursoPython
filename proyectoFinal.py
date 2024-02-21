@@ -8,7 +8,7 @@ ventana = Tk()
 #Personalizar ventana
 ventana.title("Calculadora")
 #Cambiar icono
-ventana.iconphoto(False, PhotoImage(file='calcular.png'))
+ventana.iconphoto(False, PhotoImage(file='Imagenes/calcular.png'))
 #Cambiar color
 ventana.config(bg='#FFFFFF')
 #Tamaño de la ventaba
@@ -231,7 +231,7 @@ btn_log = Button(ventana,text="ln", font= ("Abeat", 16), bg=color_fondo, fg=colo
 btn_log.grid(row=6, column=1, sticky=NSEW)
 
 
-photo = PhotoImage(file = "dia-noche.png")  
+photo = PhotoImage(file = "Imagenes/dia-noche.png")  
 btnd = Button(ventana, text=" .                                                                                                          ." ,image = photo, activebackground=color_display, bg=color_display, fg=color_display, relief="flat", compound=LEFT, command=lambda:cambiar_diseño())
 btnd.grid(row=0,columnspan=8, sticky=NSEW)
 
